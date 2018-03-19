@@ -8,6 +8,14 @@
     android:backgroundTint="#9395a8"
     tools:context="com.example.victoriawest.guessinggame.MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="493dp"
+        android:layout_height="671dp"
+        app:srcCompat="@drawable/gradient"
+        tools:layout_editor_absoluteX="-50dp"
+        tools:layout_editor_absoluteY="0dp" />
+
     <Button
         android:id="@+id/start_button"
         android:layout_width="122dp"
