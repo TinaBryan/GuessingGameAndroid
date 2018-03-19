@@ -2,4 +2,7 @@
     <string name="app_name">GuessingGame</string>
     <string name="winning_number">The winning number was %1$1</string>
     <string name="you_won">You win!</string>
+    <string name="play_text">Choose a number between 1 and 100.  You have 5 chances to pick the number I have generated for you.  Good luck.</string>
+    <string name="start">Start</string>
+    <string name="name">Name</string>
 </resources>
