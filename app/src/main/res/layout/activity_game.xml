@@ -7,7 +7,7 @@
     tools:context="com.example.victoriawest.guessinggame.GameActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/guess_edittext"
         android:layout_width="154dp"
         android:layout_height="47dp"
         android:layout_marginBottom="72dp"
@@ -17,7 +17,7 @@
         android:hint="1-100"
         android:inputType="number"
         android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/enter_button"
+        app:layout_constraintBottom_toTopOf="@+id/submit_guess_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -50,12 +50,12 @@
         android:textColor="@android:color/black"
         android:textSize="30sp"
         android:visibility="invisible"
-        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintBottom_toTopOf="@+id/guess_edittext"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/enter_button"
+        android:id="@+id/submit_guess_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="128dp"
