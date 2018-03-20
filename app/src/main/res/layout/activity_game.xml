@@ -6,6 +6,21 @@
     android:layout_height="match_parent"
     tools:context="com.example.victoriawest.guessinggame.GameActivity">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="772dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clue_textview"
+        app:layout_constraintVertical_bias="0.772"
+        app:srcCompat="@drawable/gradient" />
+
     <EditText
         android:id="@+id/guess_edittext"
         android:layout_width="154dp"
@@ -67,4 +82,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
